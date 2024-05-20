@@ -4,7 +4,8 @@
   "description": "This is a backend server for a Law Directory",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/ACondori95/law-directory/issues"
   },
-  "homepage": "https://github.com/ACondori95/law-directory#readme"
+  "homepage": "https://github.com/ACondori95/law-directory#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
