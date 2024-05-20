@@ -5,9 +5,9 @@
     "description": "This API is used to keep track of all customers and status of each customer",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "law-directory.onrender.com",
   "basePath": "/",
-  "schemes": ["http"],
+  "schemes": ["https"],
   "paths": {
     "/users/": {
       "get": {
@@ -139,5 +139,5 @@
       }
     }
   },
-  "schema": ["https", "http"]
+  "schema": ["https"]
 }

@@ -6,8 +6,8 @@ const doc = {
     description:
       "This API is used to keep track of all customers and status of each customer",
   },
-  host: "localhost:3000",
-  schema: ["https", "http"],
+  host: "law-directory.onrender.com",
+  schema: ["https"],
 };
 
 const outputFile = "./swagger.json";
